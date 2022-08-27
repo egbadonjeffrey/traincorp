@@ -23,7 +23,7 @@ const Navigation = () => {
             <Link to="">
               <FiHome className={styles.NavIcon} />
             </Link>
-            <Link to="">
+            <Link to="/trips">
               <TbTrain className={styles.NavIcon} />
             </Link>
             <Link to="">
@@ -42,6 +42,11 @@ const Navigation = () => {
 const styles = {
   wrapper: `
   w-[100%]
+  h-[3rem]
+  bg-white
+  py-[.6rem]
+  border-t-2
+  mt-[100vp]
     `,
 
   menuIcons: ` 

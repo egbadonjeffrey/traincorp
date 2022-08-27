@@ -13,6 +13,8 @@ const Layout = ({ children }) => {
 
 const styles = {
   navigation: `
+        fixed
+        bottom-0
         w-[100%]
         h-[100vp]
     `,
